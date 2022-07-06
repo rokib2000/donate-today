@@ -18,6 +18,21 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.donate-button {
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+/* Hero Banner SEction */
 
 .hero-section {
     background-image: url(./images/donation13.jpg);
@@ -26,7 +41,7 @@ body {
 }
 
 .container {
-    padding: 150px 200px;
+    padding: 100px 200px;
     text-align: center;
 }
 
@@ -39,13 +54,55 @@ body {
 .hero-section p {
     color: white;
     font-size: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
-.hero-section a {
-    color: white;
-    background-color: #FF5959;
-    padding: 10px 30px;
-    text-decoration: none;
+
+
+/* Donate today Section */
+
+.donate-today h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: #121212;
+
+}
+
+.donate-today p {
+    font-size: 18px;
+    color: #707070;
+}
+
+.donate-option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-option p {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    background-color: #FAFAFA;
+    padding: 40px 30px;
     border-radius: 5px;
 }
+
+#donate-item {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+#donate-field {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    color: #B3B3B3;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+
+/* Our Donate Plan */
