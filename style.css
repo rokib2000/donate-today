@@ -18,6 +18,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.container {
+    padding: 100px 200px;
+    text-align: center;
+}
+
 .donate-button {
     color: white;
     font-size: 20px;
@@ -38,11 +43,6 @@ body {
     background-image: url(./images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-}
-
-.container {
-    padding: 100px 200px;
-    text-align: center;
 }
 
 .hero-section h1 {
@@ -106,3 +106,59 @@ body {
 
 
 /* Our Donate Plan */
+
+.our-donate-plan h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: #121212;
+
+}
+
+.our-donate-plan p {
+    font-size: 18px;
+    color: #707070;
+}
+
+.donate-plan-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.plan-card-item {
+    /* height: 350px; */
+    width: 32%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.card-icon img {
+    height: 50px;
+    padding: 30px 0 0 20px;
+}
+
+.card-description {
+    padding: 0 20px 30px;
+}
+
+.card-description h1 {
+    color: #121212;
+    font-size: 24px;
+}
+
+.card-description p {
+    color: #707070;
+    font-size: 16px;
+}
+
+#card-item-1 {
+    background-color: #eef6f7;
+}
+
+#card-item-2 {
+    background-color: #ffe6e6;
+}
+
+#card-item-3 {
+    background-color: #fff2e6;
+}
