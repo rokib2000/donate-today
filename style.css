@@ -164,6 +164,58 @@ body {
     background-color: #fff2e6;
 }
 
+
+/* Recent Stories */
+
+.recent-stories h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: #121212;
+
+}
+
+.recent-stories p {
+    font-size: 18px;
+    color: #707070;
+}
+
+.stories-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.stories-card-item {
+    width: 32%;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px #707070;
+}
+
+.card-image img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.stories-description {
+    padding: 0 20px 30px;
+}
+
+.stories-description h1 {
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 24px;
+}
+
+.stories-description p {
+    color: #707070;
+    font-size: 16px;
+}
+
+
+
+
 /* Get My Updates */
 
 .get-my-update h1 {
