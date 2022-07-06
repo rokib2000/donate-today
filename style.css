@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .font {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+} */
+
+.primary-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-font {
+    font-family: 'Inter', sans-serif;
+}
