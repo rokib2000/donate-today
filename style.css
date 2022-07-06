@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    padding: 100px 200px;
+    padding: 50px 200px;
     text-align: center;
 }
 
@@ -202,4 +202,25 @@ body {
     color: #FFFFFF;
     margin-left: 0;
     cursor: pointer;
+}
+
+
+
+/* Footer */
+
+
+
+footer {
+    background-color: #0B0D17;
+}
+
+.footer h2 {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 36px;
+}
+
+.footer p {
+    color: #D9DBE1;
+    font-size: 14px;
 }
