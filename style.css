@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,4 +16,36 @@ body {
 
 .title-font {
     font-family: 'Inter', sans-serif;
+}
+
+
+.hero-section {
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    padding: 150px 200px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.hero-section a {
+    color: white;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
 }
